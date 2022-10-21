@@ -1,1 +1,1 @@
-web: export NODE_OPTIONS=--openssl-legacy-provider && node ./build/main.js
+web: NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider && node ./build/main.js

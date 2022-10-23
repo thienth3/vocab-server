@@ -12,7 +12,8 @@ export default async (parent, { content, comment, sentence, paragraph,
     },
     { 
       creator: ctx.user, content, comment, sentence, paragraph,
-      image, position, url
+      image, position, url,
+      deletedAt: null
     }, {
     upsert: true
   });
